@@ -29,7 +29,8 @@ export default function Elaina(props) {
     ref={modelRef}
     position={[0, -2, 0]}
     scale={[0.3,0.3,0.3]}
-    rotation={[0,-0.5,0]}>
+    rotation={[0,-0.5,0]}
+    >
       <primitive object={nodes._rootJoint} />
       <mesh geometry={nodes.Wand_broom_0.geometry} material={materials.broom} rotation={[-Math.PI / 2, 0, 0]} />
       <mesh geometry={nodes.Wand_Outline_cloth_0.geometry} material={materials.Outline_cloth} rotation={[-Math.PI / 2, 0, 0]} />

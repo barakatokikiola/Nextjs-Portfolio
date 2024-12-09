@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image src={bg} alt="background-image" fill
-      className="w-full h-full opacity-70 object-cover object-center"  />
+      className="w-full h-full opacity-40 object-cover object-center"  />
 <div className="w-full h-screen">
     {/* */}
     <Navigation />
