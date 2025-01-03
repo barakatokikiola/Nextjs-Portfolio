@@ -18,76 +18,55 @@ Websites:
 
 export const projectsData = [
   {
-    id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
+    id:1,
+    name: "Creative Nextjs Portfolio",
+    demoLink: "https://nextjs-portfolio-pink-pi.vercel.app/",
     date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    description:
+      "This project showcases a responsive portfolio built with React, TailwindCSS, and Three.js, leveraging Next.js for server-side rendering and performance optimization. The clean, modern design ensures accessibility across devices",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "Nextjs Todo App",
+    demoLink: "https://nextjs-todo-e32142e33-barakatokikiolas-projects.vercel.app/",
+    date: "2022-08-15",
+    description:
+      "A simple and intuitive task management app built with Next.js and React. It offers seamless user experience with TypeScript for type safety and TailwindCSS for modern styling. This responsive app allows users to add, delete, and track tasks efficiently.",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Krawdwise",
+    demoLink: "https://krawdwise.netlify.app/",
+   date:"2024-09-09",
+   description:
+      "A sleek and responsive web application built with React and TailwindCSS. Krawdwise offers a dynamic interface for exploring and interacting with content seamlessly. The project emphasizes modern design, intuitive UI/UX, and efficient performance.",
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    name: "Movie Search App",
+    demoLink: "https://barakatokikiola.github.io/Movie-App/",
+    date: "2024-05-06",
+    description:
+      "A React-based app that lets users search for movies quickly and view details using a clean, Bootstrap-powered interface. The app dedemoLinkrs a smooth user experience with responsive design, making it easy to explore and discover movies.",
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "Credo Landing Page",
+    demoLink: "https://teamconnect.netlify.app/",
+   date:"2022-08-21",
+   description:
+      "A modern, responsive landing page designed using React and TailwindCSS. The project features clean, minimalistic UI components, providing seamless navigation and a visually appealing layout optimized for various devices.",
   },
   {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-  },
+      id: 6,
+      name: "MSSN Landing Page",
+      demoLink: "https://barakatokikiola.github.io/MSSN-Unilag/",
+      date:"2023-09-13",
+      description:
+        "A responsive landing page designed for the Muslim Students' Society of Nigeria (MSSN), UNILAG chapter. Built with HTML5, CSS3, JavaScript, and Bootstrap, it features a clean layout, smooth navigation, and a modern design for effective communication of information.",
+    },
 ];
+
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },

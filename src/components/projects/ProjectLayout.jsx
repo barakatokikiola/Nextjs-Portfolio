@@ -5,9 +5,9 @@ const ProjectLayout = ({name, description, date, demoLink}) => {
   return (
     <Link
     href={demoLink}
-    target={'_blank'} className='flex items-center justify-between w-full relative
+    target={'_blank'} className='flex flex-col items-center justify-between w-full relative
     rounded-lg overflow-hidden p-6 custom-bg'>
-      <div className='flex items-center justify-center
+      <div className='flex flex-col items-center justify-center
       space-x-2'>
         <h2 className='text-foreground'>{name}</h2>
         <p className='text-muted'>{description}</p>
