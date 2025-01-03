@@ -48,6 +48,20 @@ Clean, Maintainable Code: I write clean, modular, and efficient code to ensure s
                 alt='Barakat' loading='lazy'
                 className='w-full h-auto'/>
             </Itemlayout>
+            <Itemlayout className='col-span-full'>
+                <img 
+                src=' https://skillicons.dev/icons?i=html,css,javascript,react,nextjs,netlify,tailwind,threejs,bootstrap,github,git,npm,nodejs,figma,vscode&theme=light' 
+                alt='Barakat' loading='lazy'
+                className='w-full h-auto'/>
+            </Itemlayout>
+           <Itemlayout className='col-span-6 !p-0'>
+           <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=barakatokikiola&theme=dark&hide_border=true&ring=FEFE5B&background=EB545400&currStreakLabel=FEFE5B"
+            alt='Barakat' loading='lazy' />
+           </Itemlayout>
+           <Itemlayout className='col-span-6 !p-0'>
+           <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=barakatokikiola&repo=github-readme-stats&theme=transparent&hide_border=true&title_color=fefe5b&icon_color=fefe5b&text_color=ffff&text_bold=false"
+            alt='Barakat' loading='lazy' />
+           </Itemlayout>
         </div>
     </section>
   )
